@@ -5,6 +5,5 @@ numpy
 altair
 requests
 validators
-time
 PIL
 pickle==4.0
