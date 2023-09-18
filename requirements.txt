@@ -1,6 +1,6 @@
 streamlit
 scikit-learn==1.3.0
-pickle==23.2.1
+pickleshare==0.7.5
 pandas
 numpy
 altair
