@@ -1,5 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import sklearn as sk
+from sklearn import preprocessing
+from sklearn.preprocessing import StandardScaler
 import pandas as pd
 import numpy as np
 from PIL import Image
@@ -8,8 +11,6 @@ import requests
 import validators
 import pickle
 import time
-from sklearn import preprocessing
-from sklearn.preprocessing import StandardScaler
 
 #[theme]
 #backgroundColor="#0E117"   <- de la web en ejecucion arriba a la derecha en settings --> theme
