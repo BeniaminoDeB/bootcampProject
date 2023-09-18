@@ -8,6 +8,7 @@ import requests
 import validators
 import pickle
 import time
+import sklearn
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
 
