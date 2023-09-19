@@ -11,13 +11,8 @@ import requests
 import validators
 import pickle
 import time
+from auxiliar import obtener_clase
 
-#[theme]
-#backgroundColor="#0E117"   <- de la web en ejecucion arriba a la derecha en settings --> theme
-
-#df = pd.read_csv('vehiculos-de-segunda-mano-sample.csv')
-
-#marcas = list(df['make'].unique())
 
 marcas = ['Opel', 'Tesla', 'SsangYong', 'KIA', 'Lexus', 'Mitsubishi',
        'Nissan', 'Renault', 'SEAT', 'Skoda', 'Jeep', 'Abarth', 'Volvo',
@@ -58,8 +53,6 @@ x_test = {"make": marca, "fuel": fuel, "kms": km, "shift":shift,  "antiguedad": 
 x_test = pd.DataFrame([x_test])
 
 #LOAD MODEL
-
-from auxiliar import obtener_clase 
 
 mi_instancia = obtener_clase()
 
